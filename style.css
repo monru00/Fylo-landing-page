@@ -6,4 +6,284 @@
 body{
     background-color: hsl(218, 28%, 13%);
     color: white;
+    font-family: 'Raleway';
+}
+body a:hover{color: white;}
+.nav{
+    display: flex;
+    margin-bottom: 97px;
+}
+.n-d1 a{
+    text-decoration: none;
+    color: #c9c2c2;
+    font-size: 16px;
+}
+.n-d1{
+    margin: 90px 0 0 0;
+    gap: 50px;
+    display: flex;
+}
+.n-img1{
+    margin: 75px 750px 0 17px;
+    width: 180px;
+    height: 50px;
+}
+
+/* **************** section 1 start here *************** */
+.s1-img1{
+    margin: 0 0 40px 295px;
+}
+.s1-h1{
+    font-size: 40px;
+    margin: 0 0 35px 315px;
+    display: inline-block;
+    text-align: center;
+    line-height: 60px;
+}
+.s1-p1{
+    margin: 0 0 35px 365px;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+}
+.s1-btn1{
+    width: 282px;
+    height: 57px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(135deg, hsl(198, 70%, 40%), hsl(198, 60%, 50%), hsl(198, 80%, 60%));
+
+    color: white;
+    font-size: 16px;
+    margin: 0 0 175px 515px;
+}
+.s1-btn1:hover{
+    background: hsl(198, 60%, 60%);
+}
+/* **************** section 2 start here *************** */
+.section-2{
+    margin-bottom: 45px;
+}
+.s2-d1{
+    display: flex;
+}
+.s2-d2{
+    display: flex;
+}
+.s2-d3{
+    margin: 0 153px 90px 220px;
+}
+.s2-d5{
+    margin: 0 153px 90px 220px;
+}
+.s2-img1{
+    margin: 0 0 20px 132px;
+}
+.s2-img2{
+    margin: 0 0 20px 157px;
+}
+.s2-img3{
+    margin: 0 0 27px 135px;
+}
+.s2-img4{
+    margin: 0 0 30px 124px;
+}
+.s2-h1{
+    margin: 0 0 10px 40px;
+    font-size: 18px;
+}
+.s2-h2{
+    margin: 0 0 10px 88px;
+    font-size: 18px;
+}
+.s2-h3{
+    margin: 0 0 10px 67px;
+    font-size: 18px;
+}
+.s2-h4{
+    margin: 0 0 10px 70px;
+    font-size: 18px;
+
+}
+.s2-p1,.s2-p2,.s2-p3,.s2-p4{
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+    color: #f1f1f1;
+}
+/* **************** section 3 start here *************** */
+.section-3{
+    display: flex;
+    margin: 0 0 170px 40px;
+}
+.s3-d2{
+    margin: 127px 0 0 75px;
+}
+.s3-h1{
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+.s3-p1{
+    line-height: 24px;
+    margin-bottom: 23px;
+}
+.s3-a1{
+    font-size: 18px;
+    color: hsl(176, 68%, 64%);
+    text-decoration: none;
+}
+.s3-d3{
+    display: flex;
+    gap: 3px;
+}
+.s3-img2{
+    margin-top: 2px;
+}
+/* **************** section 4 start here *************** */
+.section-4{
+    display: flex;
+    padding: 0 0 200px 83px;
+    gap: 40px;
+    height: 360px;
+}
+.s4-d1,.s4-d2,.s4-d3{
+    width: 360px;
+    height: 205px;
+    background-color:  hsl(219, 30%, 18%);
+    padding: 45px 0 0 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 24px hsl(219, 25%, 30%, 0.6);
+}
+.s4-p1,.s4-p4,.s4-p7{
+    font-size: 14px;
+    color: #f1f1f1;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+.s4-d4{
+    display: flex;
+    gap: 8px;
+    margin-top: 30px;
+}
+.s4-img1,.s4-img2,.s4-img3{
+    width: 27px;
+    height: 27px;
+    border-radius: 50px;
+}
+.s4-p2,.s4-p5,.s4-p8{
+    font-size: 10px;
+}
+.s4-p3,.s4-p6,.s4-p9{
+    font-size: 8px;
+}
+/* **************** section 5 start here ************* */
+.section-5{
+    z-index: 2;
+    position: relative;
+    z-index: 2;
+    margin-bottom: -112.5px; 
+}
+.section-5 div{
+    position: relative;
+}
+.s5-d1{
+    margin-left: 240px;
+    border-radius: 10px;
+    width: 860px;
+    height: 275px;
+    background-color: hsl(217, 28%, 15%);
+}
+.s5-h1{
+    text-align: center;
+    padding: 50px 0 28px 0;
+}
+.s5-p1{
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 14px;
+    margin-left: 122px;
+    line-height: 20px;
+}
+.s5-input1{
+    width: 480px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    margin: 0 23px 0 80px;
+    padding-left: 30px;
+    font-size: 16px;
+}
+.s5-btn1{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    background-color:  hsl(198, 60%, 50%);
+    color: white;
+}
+.s5-btn1:hover{
+    background: hsl(198, 60%, 60%);
+}
+.update-wrapper{
+    position: relative;
+}
+/* **************** footer start here *************** */
+.footer{
+    height: 515px;
+    width: 100%;
+    background-color: hsl(216, 53%, 9%);
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+.f-d1{
+    margin: 200px 100px 0 75px;
+}
+.f-img-1{
+    margin-bottom: 32px;
+}
+.f-img2{
+    width: 15px;
+    height: 20px;
+}
+.f-d6{
+    display: flex;
+    gap: 28px;
+}
+.f-d2{
+    margin: 285px 145px 0 0;
+}
+.f-d7{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 22px;
+}
+.f-d8{
+    display: flex;
+    gap: 25px;
+}
+.f-d3 a,.f-d4 a{
+    display: block;
+    text-decoration: none;
+    color: #c9c2c2;
+}
+.f-d3,.f-d4{
+    margin: 285px 80px 0 0;
+    line-height: 32px;
+}
+.f-d4{
+    margin-right: 113px;
+}
+.f-d5 img{
+    width: 25px;
+    height: 25px;
+}
+.f-d5{
+    margin-top: 285px;
+    display: flex;
+    gap: 10px;
 }
